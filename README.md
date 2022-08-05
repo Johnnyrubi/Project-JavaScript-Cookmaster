@@ -1,36 +1,9 @@
 # Boas vindas ao Projeto Cookmaster!
 
-#  Neste projeto, você será capaz de:
-
-- Entender o que há por dentro de um token de autenticação;
-
-- Gerar tokens a partir de informações como login e senha;
-
-- Autenticar rotas do Express, usando o token JWT;
-
-- Fazer upload de arquivos em APIs REST;
-
-- Salvar arquivos no servidor através de uma API REST;
-
-- Consultar arquivos do servidor através de uma api REST.
-
-- Realizar testes de integração
-
----
-
-
 ## O que desenvolvi:
 
-Uma API CRUD REST utilizando arquitetura MSC.
+Uma API CRUD REST utilizando arquitetura MSC, Com autenticação de usuarios e rotas com JWT, e upload de imagens.
 
-Para realizar qualquer tipo de alteração no banco de dados (como cadastro, edição ou exclusão de receitas) será necessário autenticar-se. Além disso, as pessoas usuárias devem poder ser clientes ou administradores. Pessoas clientes apenas poderão disparar ações nas receitas que ele mesmo criou. Já uma pessoa administradora pode disparar qualquer ação em qualquer receita.
-
-A autenticação deverá ser feita via `JWT`.
-
-adicionar uma imagem à uma receita, utilizando o upload de arquivos fornecido pelo `multer`.
-
-
-## Antes de começar a desenvolver
 
 1. Clone o repositório
   - git clone
